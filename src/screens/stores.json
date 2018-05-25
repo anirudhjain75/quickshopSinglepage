@@ -1,0 +1,34 @@
+[
+  {
+    "storeName" : "Big Bazaar",
+    "data" : [
+      {
+        "productName" : "Apple 1KG",
+        "productPrice" : 100,
+        "productQuantity" : 2
+      },
+      {
+        "productName" : "Dairy Milk Chocolate",
+        "productPrice" : 30,
+        "productQuantity" : 1
+      }
+    ],
+    "storePriceTotal" : 230
+  },
+  {
+    "storeName" : "Reliance Fresh",
+    "data" : [
+      {
+        "productName" : "Ghee 1KG",
+        "productPrice" : 350,
+        "productQuantity" : 1
+      },
+      {
+        "productName" : "Lemon 10pcs",
+        "productPrice" : 30,
+        "productQuantity" : 2
+      }
+    ],
+    "storePriceTotal" : 410
+  }
+]
