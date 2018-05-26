@@ -8,7 +8,13 @@ class OptionBar extends React.Component {
         if(!this.props.login) {
             return (
                 <View style={{marginTop: 30, flexDirection: 'row', justifyContent: 'space-evenly', borderBottomWidth: 1, borderBottomColor: '#c3c3c3', paddingBottom: 20}}>
-                    <TouchableOpacity style={{height: 25, width: 100, backgroundColor: 'orange', alignItems: 'center', justifyContent: 'center'}}>
+                    <TouchableOpacity
+                        style={{height: 25, width: 100, backgroundColor: 'orange', alignItems: 'center', justifyContent: 'center'}}
+                        onPress={() => {
+                            console.log(this.props);
+                            return this.props.navigator.push({screen: 'quickshop.loginform', title: 'login form'})
+                        }}
+                    >
                         <Text style={{fontSize: 14, color: 'white'}}> Login </Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={{height: 25, width: 100, backgroundColor: 'orange', alignItems: 'center', justifyContent: 'center'}}>

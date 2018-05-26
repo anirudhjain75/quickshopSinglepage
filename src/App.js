@@ -22,9 +22,6 @@ firebase.initializeApp(config);
 
 registerScreens( state, Provider);
 
-
-
-
 Navigation.startSingleScreenApp({
     screen: {
         screen: 'quickshop.home',
