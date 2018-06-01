@@ -1,0 +1,170 @@
+[
+  {
+    "key" : "0",
+    "category" : "Fruits",
+    "products" : [
+      {
+        "key" : "0",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "1",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "2",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "3",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "4",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "5",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      }
+    ]
+  },
+  {
+    "key" : "1",
+    "category" : "Sweets",
+    "products" : [
+      {
+        "key" : "0",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "1",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "2",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "3",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "4",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "5",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      }
+    ]
+  },
+  {
+    "key" : "2",
+    "category" : "Drinks",
+    "products" : [
+      {
+        "key" : "0",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "1",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "2",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "3",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "4",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "5",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      }
+    ]
+  },
+  {
+    "key" : "3",
+    "category" : "Noodles",
+    "products" : [
+      {
+        "key" : "0",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "1",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "2",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "3",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "4",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      },
+      {
+        "key" : "5",
+        "productName" : "Apple 1KG",
+        "productPrice" : "Rs 100",
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+      }
+    ]
+  }
+]

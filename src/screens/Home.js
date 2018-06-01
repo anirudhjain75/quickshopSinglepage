@@ -10,6 +10,7 @@ class Home extends React.Component {
             pinCode: ''
         };
         this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+
     }
     onNavigatorEvent(event) {
         if (event.type === 'NavBarButtonPress') {
@@ -46,7 +47,9 @@ class Home extends React.Component {
                 <View>
                     <Text style={{alignSelf: 'center', fontSize: 25}}> Stores </Text>
                     <View style={{flexDirection: 'row', height: 150, justifyContent: 'space-evenly', marginTop: 20}}>
-                        <Image source={require('../../img/store.png')} style={{height: 100, width: 100}}/>
+                        <TouchableWithoutFeedback onPress={() => this.props.navigator.push({screen: 'quickshop.productList', title: 'Categories'})}>
+                            <Image source={require('../../img/store.png')} style={{height: 100, width: 100}}/>
+                        </TouchableWithoutFeedback>
                         <Image source={require('../../img/store.png')} style={{height: 100, width: 100}}/>
                     </View>
                     <View style={{flexDirection: 'row', height: 150, justifyContent: 'space-evenly'}}>
@@ -85,7 +88,8 @@ const styles = {
     pinCodeContainer:{
         height: 60,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        marginTop: 5
     },
     textInputStyle: {
         height: 20,

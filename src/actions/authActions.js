@@ -14,6 +14,20 @@ export const passChange = (text) => {
     };
 };
 
+export const FirstNameChange = (text) => {
+    return {
+        type: 'FIRST_NAME_CHANGED',
+        payload: text
+    }
+};
+
+export const LastNameChange = (text) => {
+    return {
+        type: 'LAST_NAME_CHANGED',
+        payload: text
+    }
+};
+
 export const loginUser = ({email, password}) => {
     return (dispatch) => {
         dispatch({ type: 'LOGIN_USER' });

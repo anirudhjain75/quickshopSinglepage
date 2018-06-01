@@ -1,5 +1,6 @@
 const initialState = {
-    firstName: 'Guest',
+    firstName: '',
+    lastName: '',
     email: '',
     password: '',
     login: false
@@ -27,7 +28,7 @@ export default (state = initialState, action) => {
         case 'LOGIN_USER_SUCCESS':
             return {
                 ...state,
-                ...INITIAL_STATE,
+                ...initialState,
                 user: action.payload
             };
         case 'LOGIN_USER_FAIL':
@@ -37,7 +38,16 @@ export default (state = initialState, action) => {
                 password: "",
                 loading: false
             };
-            
+        case 'FIRST_NAME_CHANGED':
+            return {
+                ...state,
+                firstName: action.payload
+            };
+        case 'LAST_NAME_CHANGED':
+            return {
+                ...state,
+                lastName: action.payload
+            };
         default:
             return state;
     }

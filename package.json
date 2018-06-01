@@ -10,7 +10,10 @@
     "firebase": "^5.0.3",
     "react": "16.3.1",
     "react-native": "0.55.4",
+    "react-native-material-kit": "^0.5.1",
+    "react-native-material-ui": "^1.22.3",
     "react-native-navigation": "^1.1.462",
+    "react-native-vector-icons": "^4.6.0",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-thunk": "^2.2.0"
