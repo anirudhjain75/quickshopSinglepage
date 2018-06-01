@@ -4,6 +4,9 @@ import { View, Text, SectionList, TouchableOpacity} from 'react-native';
 import storeData from './stores.json';
 
 class Cart extends React.Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         console.log(storeData);
         return(

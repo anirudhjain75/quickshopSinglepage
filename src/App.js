@@ -22,9 +22,6 @@ firebase.initializeApp(config);
 
 registerScreens( state, Provider);
 
-
-
-
 Navigation.startSingleScreenApp({
     screen: {
         screen: 'quickshop.home',
@@ -50,8 +47,8 @@ Navigation.startSingleScreenApp({
     drawer : {
         left: {
             screen: 'quickshop.optionBar',
-            disableOpenGesture: false,
             fixedWidth: 300
-        }
+        },
+        disableOpenGesture: true
     }
 });

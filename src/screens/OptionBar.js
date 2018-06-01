@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, TouchableOpacity, Button} from 'react-native';
+import { View, Text, TouchableOpacity, Button } from 'react-native';
 import { connect } from 'react-redux';
 
 class OptionBar extends React.Component {
@@ -8,10 +8,30 @@ class OptionBar extends React.Component {
         if(!this.props.login) {
             return (
                 <View style={{marginTop: 30, flexDirection: 'row', justifyContent: 'space-evenly', borderBottomWidth: 1, borderBottomColor: '#c3c3c3', paddingBottom: 20}}>
-                    <TouchableOpacity style={{height: 25, width: 100, backgroundColor: 'orange', alignItems: 'center', justifyContent: 'center'}}>
+                    <TouchableOpacity
+                        style={{height: 25, width: 100, backgroundColor: 'orange', alignItems: 'center', justifyContent: 'center'}}
+                        onPress={() => {
+                            this.props.navigator.toggleDrawer({
+                                to: 'closed',
+                                side: 'left',
+                                animated: 'true'
+                            });
+                            this.props.navigator.showModal({screen: 'quickshop.loginform', title: 'Login', animation: 'none'})
+                        }}
+                    >
                         <Text style={{fontSize: 14, color: 'white'}}> Login </Text>
                     </TouchableOpacity>
-                    <TouchableOpacity style={{height: 25, width: 100, backgroundColor: 'orange', alignItems: 'center', justifyContent: 'center'}}>
+                    <TouchableOpacity
+                        style={{height: 25, width: 100, backgroundColor: 'orange', alignItems: 'center', justifyContent: 'center'}}
+                        onPress={() => {
+                            this.props.navigator.toggleDrawer({
+                                to: 'closed',
+                                side: 'left',
+                                animated: 'true'
+                            });
+                            this.props.navigator.showModal({screen: 'quickshop.signup', title: 'Sign Up', animation: 'none'})
+                        }}
+                    >
                         <Text style={{fontSize: 14, color: 'white'}}> Sign Up </Text>
                     </TouchableOpacity>
                 </View>
@@ -24,18 +44,17 @@ class OptionBar extends React.Component {
         return (
             <View style={{paddingLeft: 5}}>
                 <View style={{marginTop: 40, marginLeft: 40}}>
-                    <Text style={{fontSize: 16}}>{`Hi ` + this.props.name}</Text>
+                    <Text style={{fontSize: 16}}>{`Hi ` + (this.props.name || 'Guest')}</Text>
                 </View>
                 {this.showLoginOptions()}
                 <View style={{marginTop: 15}}>
                     <Button
                         title={'Home'}
                         onPress={() => {
-                            return (
-                                this.props.navigator.popToRoot({
+                                this.props.navigator.pop({
                                     animated: true,
                                     animationType: 'fade'
-                                }))}
+                                })}
                         }
                     />
                     <Button
