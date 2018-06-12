@@ -28,30 +28,27 @@ export const LastNameChange = (text) => {
     }
 };
 
-export const loginUser = ({email, password}) => {
+export const signUp = ({email, password, firstName, lastName}) => {
     return (dispatch) => {
-        dispatch({ type: 'LOGIN_USER' });
-
-        firebase.auth().signInWithEmailAndPassword(email, password)
-            .then(user => loginUserSuccess(dispatch, user))
-            .catch((error) => {
-                console.log(error);
-                firebase.auth().createUserWithEmailAndPassword(email, password)
-                    .then(user => loginUserSuccess(dispatch, user))
-                    .catch(() => loginUserFail(dispatch))
+        dispatch({type: "SIGNING_UP"})
+        if (email && password) {
+            fetch("http://localhost:3000/users", {
+                method: "POST",
+                headers: {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    email,
+                    password,
+                    firstName,
+                    lastName
+                })
             })
-    };
-};
-
-const loginUserFail = (dispatch) => {
-    dispatch({
-        type: 'LOGIN_USER_FAIL'
-    });
-};
-
-const loginUserSuccess = (dispatch, user) => {
-    dispatch({
-        type: 'LOGIN_USER_SUCCESS',
-        payload: user
-    });
+                .then((response) => console.log(response.json()))
+                .then(() => dispatch({
+                    type: "LOGIN_SUCCESS"
+                }))
+        }
+    }
 };

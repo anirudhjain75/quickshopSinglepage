@@ -3,7 +3,7 @@ import {ScrollView, View, TouchableOpacity, Text} from 'react-native';
 import { MKTextField, MKButton } from 'react-native-material-kit';
 import { connect } from 'react-redux';
 
-import {emailChange, passChange, FirstNameChange, LastNameChange} from "../actions";
+import {emailChange, passChange, FirstNameChange, LastNameChange, signUp} from "../actions";
 
 class SignUpForm extends React.Component {
     constructor(props) {
@@ -83,7 +83,12 @@ class SignUpForm extends React.Component {
                     <MKButton
                         style={{marginTop: 50, alignSelf: 'center', backgroundColor: 'black', width: 250, height: 40, justifyContent: 'center'}}
                         onPress={() => {
-                            console.log(this.props)
+                            this.props.signUp({
+                                email: this.props.email,
+                                password: this.props.password,
+                                firstName: this.props.firstName,
+                                lastName: this.props.lastName
+                            })
                         }}
                     >
                         <Text style={{fontSize: 23, color: '#ffffff', alignSelf: 'center', fontWeight: '600'}}>Sign Up</Text>
@@ -99,4 +104,4 @@ const mapStateToProps = state => {
     return {email, password, firstName, lastName}
 };
 
-export default connect(mapStateToProps, {emailChange, passChange, FirstNameChange, LastNameChange})(SignUpForm);
+export default connect(mapStateToProps, {emailChange, passChange, FirstNameChange, LastNameChange, signUp})(SignUpForm);

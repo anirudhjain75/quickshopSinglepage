@@ -6,37 +6,39 @@
       {
         "key" : "0",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
-        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+        "productPrice" : 100,
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+        "productDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       },
       {
         "key" : "1",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
-        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+        "productPrice" : 100,
+        "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+        "productDescription" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       },
       {
         "key" : "2",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "3",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "4",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "5",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       }
     ]
@@ -48,37 +50,37 @@
       {
         "key" : "0",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "1",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "2",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "3",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "4",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "5",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       }
     ]
@@ -86,41 +88,41 @@
   {
     "key" : "2",
     "category" : "Drinks",
-    "products" : [
+    "products" :[
       {
         "key" : "0",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "1",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "2",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "3",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "4",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "5",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       }
     ]
@@ -132,37 +134,37 @@
       {
         "key" : "0",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "1",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "2",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "3",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "4",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       },
       {
         "key" : "5",
         "productName" : "Apple 1KG",
-        "productPrice" : "Rs 100",
+        "productPrice" : 100,
         "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
       }
     ]

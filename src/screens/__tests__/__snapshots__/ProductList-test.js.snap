@@ -1,0 +1,3117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product List page 1`] = `
+<View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "category": "Fruits",
+          "key": "0",
+          "products": Array [
+            Object {
+              "key": "0",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "1",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "2",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "3",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "4",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "5",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+          ],
+        },
+        Object {
+          "category": "Sweets",
+          "key": "1",
+          "products": Array [
+            Object {
+              "key": "0",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "1",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "2",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "3",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "4",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "5",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+          ],
+        },
+        Object {
+          "category": "Drinks",
+          "key": "2",
+          "products": Array [
+            Object {
+              "key": "0",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "1",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "2",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "3",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "4",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "5",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+          ],
+        },
+        Object {
+          "category": "Noodles",
+          "key": "3",
+          "products": Array [
+            Object {
+              "key": "0",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "1",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "2",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "3",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "4",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+            Object {
+              "key": "5",
+              "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+            },
+          ],
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    invertStickyHeaders={undefined}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#c3c3c3",
+              "borderBottomWidth": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#232323",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "marginBottom": 15,
+                "marginTop": 5,
+              }
+            }
+          >
+            Fruits
+          </Text>
+          <RCTScrollView
+            data={
+              Array [
+                Object {
+                  "key": "0",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "1",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "2",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "3",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "4",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "5",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+              ]
+            }
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            initialNumToRender={10}
+            invertStickyHeaders={undefined}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onContentSizeChange={[Function]}
+            onEndReachedThreshold={2}
+            onLayout={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            style={
+              Object {
+                "marginBottom": 20,
+              }
+            }
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#c3c3c3",
+              "borderBottomWidth": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#232323",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "marginBottom": 15,
+                "marginTop": 5,
+              }
+            }
+          >
+            Sweets
+          </Text>
+          <RCTScrollView
+            data={
+              Array [
+                Object {
+                  "key": "0",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "1",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "2",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "3",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "4",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "5",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+              ]
+            }
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            initialNumToRender={10}
+            invertStickyHeaders={undefined}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onContentSizeChange={[Function]}
+            onEndReachedThreshold={2}
+            onLayout={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            style={
+              Object {
+                "marginBottom": 20,
+              }
+            }
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#c3c3c3",
+              "borderBottomWidth": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#232323",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "marginBottom": 15,
+                "marginTop": 5,
+              }
+            }
+          >
+            Drinks
+          </Text>
+          <RCTScrollView
+            data={
+              Array [
+                Object {
+                  "key": "0",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "1",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "2",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "3",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "4",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "5",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+              ]
+            }
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            initialNumToRender={10}
+            invertStickyHeaders={undefined}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onContentSizeChange={[Function]}
+            onEndReachedThreshold={2}
+            onLayout={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            style={
+              Object {
+                "marginBottom": 20,
+              }
+            }
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomColor": "#c3c3c3",
+              "borderBottomWidth": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#232323",
+                "fontSize": 18,
+                "fontWeight": "500",
+                "marginBottom": 15,
+                "marginTop": 5,
+              }
+            }
+          >
+            Noodles
+          </Text>
+          <RCTScrollView
+            data={
+              Array [
+                Object {
+                  "key": "0",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "1",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "2",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "3",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "4",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+                Object {
+                  "key": "5",
+                  "productImage": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                  "productName": "Apple 1KG",
+                  "productPrice": 100,
+                },
+              ]
+            }
+            disableVirtualization={false}
+            getItem={[Function]}
+            getItemCount={[Function]}
+            horizontal={true}
+            initialNumToRender={10}
+            invertStickyHeaders={undefined}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onContentSizeChange={[Function]}
+            onEndReachedThreshold={2}
+            onLayout={[Function]}
+            onMomentumScrollEnd={[Function]}
+            onScroll={[Function]}
+            onScrollBeginDrag={[Function]}
+            onScrollEndDrag={[Function]}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            stickyHeaderIndices={Array []}
+            style={
+              Object {
+                "marginBottom": 20,
+              }
+            }
+            updateCellsBatchingPeriod={50}
+            viewabilityConfigCallbackPairs={Array []}
+            windowSize={21}
+          >
+            <View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                onLayout={[Function]}
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                    },
+                    null,
+                  ]
+                }
+              >
+                <View>
+                  <Image
+                    source={
+                      Object {
+                        "uri": "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 150,
+                        "marginLeft": 5,
+                        "width": 150,
+                      }
+                    }
+                  />
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginBottom": 5,
+                        "marginLeft": 5,
+                        "marginTop": 5,
+                      }
+                    }
+                  >
+                     
+                    Apple 1KG
+                     
+                  </Text>
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Object {
+                        "marginLeft": 10,
+                      }
+                    }
+                  >
+                    100
+                  </Text>
+                  <View
+                    accessibilityComponentType={undefined}
+                    accessibilityLabel={undefined}
+                    accessibilityTraits={undefined}
+                    accessible={true}
+                    collapsable={undefined}
+                    hasTVPreferredFocus={undefined}
+                    hitSlop={undefined}
+                    isTVSelectable={true}
+                    nativeID={undefined}
+                    onLayout={undefined}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Object {
+                        "alignSelf": "center",
+                        "backgroundColor": "#ffa24a",
+                        "borderRadius": 5,
+                        "height": 30,
+                        "justifyContent": "center",
+                        "marginTop": 10,
+                        "opacity": 1,
+                        "width": 130,
+                      }
+                    }
+                    testID={undefined}
+                    tvParallaxProperties={undefined}
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Object {
+                          "alignSelf": "center",
+                          "color": "#ffffff",
+                          "fontSize": 18,
+                          "fontWeight": "700",
+                        }
+                      }
+                    >
+                      Add To Cart
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </RCTScrollView>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

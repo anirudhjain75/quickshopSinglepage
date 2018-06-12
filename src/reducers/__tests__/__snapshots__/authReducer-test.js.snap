@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email change 1`] = `
+Object {
+  "email": "test@test.com",
+  "firstName": "",
+  "lastName": "",
+  "login": false,
+  "password": "",
+}
+`;
+
+exports[`first name change 1`] = `
+Object {
+  "email": "",
+  "firstName": "test",
+  "lastName": "",
+  "login": false,
+  "password": "",
+}
+`;
+
+exports[`last name change 1`] = `
+Object {
+  "email": "",
+  "firstName": "",
+  "lastName": "man",
+  "login": false,
+  "password": "",
+}
+`;
+
+exports[`password change 1`] = `
+Object {
+  "email": "",
+  "firstName": "",
+  "lastName": "",
+  "login": false,
+  "password": "Minato",
+}
+`;

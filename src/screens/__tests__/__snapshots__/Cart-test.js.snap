@@ -1,0 +1,418 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart is rendered properly 1`] = `
+<View>
+  <RCTScrollView
+    ItemSeparatorComponent={undefined}
+    data={
+      Array [
+        Object {
+          "data": Array [
+            Object {
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+              "productQuantity": 2,
+            },
+            Object {
+              "productName": "Dairy Milk Chocolate",
+              "productPrice": 30,
+              "productQuantity": 1,
+            },
+          ],
+          "storeName": "Big Bazaar",
+          "storePriceTotal": 230,
+        },
+        Object {
+          "data": Array [
+            Object {
+              "productName": "Ghee 1KG",
+              "productPrice": 350,
+              "productQuantity": 1,
+            },
+            Object {
+              "productName": "Lemon 10pcs",
+              "productPrice": 30,
+              "productQuantity": 2,
+            },
+          ],
+          "storeName": "Reliance Fresh",
+          "storePriceTotal": 410,
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    invertStickyHeaders={undefined}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onViewableItemsChanged={undefined}
+    renderItem={[Function]}
+    renderSectionHeader={[Function]}
+    scrollEventThrottle={50}
+    sections={
+      Array [
+        Object {
+          "data": Array [
+            Object {
+              "productName": "Apple 1KG",
+              "productPrice": 100,
+              "productQuantity": 2,
+            },
+            Object {
+              "productName": "Dairy Milk Chocolate",
+              "productPrice": 30,
+              "productQuantity": 1,
+            },
+          ],
+          "storeName": "Big Bazaar",
+          "storePriceTotal": 230,
+        },
+        Object {
+          "data": Array [
+            Object {
+              "productName": "Ghee 1KG",
+              "productPrice": 350,
+              "productQuantity": 1,
+            },
+            Object {
+              "productName": "Lemon 10pcs",
+              "productPrice": 30,
+              "productQuantity": 2,
+            },
+          ],
+          "storeName": "Reliance Fresh",
+          "storePriceTotal": 410,
+        },
+      ]
+    }
+    stickyHeaderIndices={
+      Array [
+        0,
+        4,
+      ]
+    }
+    stickySectionHeadersEnabled={true}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#c3c3c3",
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+              "marginTop": 15,
+              "paddingBottom": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 16,
+              }
+            }
+          >
+             
+            Big Bazaar
+             
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 16,
+              }
+            }
+          >
+             
+            Rs 230
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#d7d7d7",
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginBottom": 10,
+                "marginTop": 10,
+                "width": 100,
+              }
+            }
+          >
+            2 * Apple 1KG
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            200
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#d7d7d7",
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginBottom": 10,
+                "marginTop": 10,
+                "width": 100,
+              }
+            }
+          >
+            1 * Dairy Milk Chocolate
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            30
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      />
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#c3c3c3",
+              "flexDirection": "row",
+              "height": 40,
+              "justifyContent": "space-evenly",
+              "marginTop": 15,
+              "paddingBottom": 15,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 16,
+              }
+            }
+          >
+             
+            Reliance Fresh
+             
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "green",
+                "fontSize": 16,
+              }
+            }
+          >
+             
+            Rs 410
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#d7d7d7",
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginBottom": 10,
+                "marginTop": 10,
+                "width": 100,
+              }
+            }
+          >
+            1 * Ghee 1KG
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            350
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderBottomWidth": 1,
+              "borderColor": "#d7d7d7",
+              "flexDirection": "row",
+              "justifyContent": "space-evenly",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "marginBottom": 10,
+                "marginTop": 10,
+                "width": 100,
+              }
+            }
+          >
+            2 * Lemon 10pcs
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+            60
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      />
+    </View>
+  </RCTScrollView>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    collapsable={undefined}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#ffac3a",
+        "borderRadius": 4,
+        "height": 40,
+        "justifyContent": "center",
+        "marginTop": 50,
+        "opacity": 1,
+        "width": 200,
+      }
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontSize": 25,
+          "fontWeight": "700",
+        }
+      }
+    >
+       Checkout 
+    </Text>
+  </View>
+</View>
+`;
