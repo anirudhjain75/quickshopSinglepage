@@ -2,6 +2,8 @@ import React from 'react';
 import { View, Text, TouchableOpacity, Button } from 'react-native';
 import { connect } from 'react-redux';
 
+import {logOut} from "../actions";
+
 class OptionBar extends React.Component {
 
     showLoginOptions() {
@@ -40,6 +42,23 @@ class OptionBar extends React.Component {
         return null
     }
 
+    showLogout() {
+        if (this.props.login) {
+            return <Button
+                title={'Logout'}
+                style={{backgroundColor: 'red'}}
+                onPress={() => {
+                    this.props.navigator.toggleDrawer({
+                        to: 'closed',
+                        side: 'left',
+                        animated: 'true'
+                    });
+                    this.props.logOut();
+                }}
+            />
+        }
+    }
+
     render() {
         return (
             <View style={{paddingLeft: 5}}>
@@ -62,6 +81,7 @@ class OptionBar extends React.Component {
                         onPress={() => null}
                     />
                 </View>
+                {this.showLogout()}
             </View>
         )
     }
@@ -71,4 +91,4 @@ const mapStateToProps = state => {
   return { name: state.auth.firstName, login: state.auth.login}
 };
 
-export default connect(mapStateToProps)(OptionBar);
+export default connect(mapStateToProps, {logOut})(OptionBar);
