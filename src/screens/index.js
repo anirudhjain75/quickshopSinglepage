@@ -7,8 +7,10 @@ import LoginForm from './LoginForm';
 import SignUpForm from './signupForm';
 import ProductList from './ProductList';
 import Product from "./Product";
+import Main from "./Main";
 
 export function registerScreens(state, Provider) {
+    Navigation.registerComponent('quickshop.main', () => Main, state, Provider);
     Navigation.registerComponent('quickshop.home', () => Home, state, Provider);
     Navigation.registerComponent('quickshop.cart', () => Cart, state, Provider);
     Navigation.registerComponent('quickshop.optionBar', () => OptionBar, state, Provider);
