@@ -13,6 +13,12 @@ registerScreens( state, Provider);
 
 Navigation.startSingleScreenApp({
     screen: {
+        screen: 'quickshop.main',
+        title: 'QuickShop'
+    }
+
+
+    /*{
         screen: 'quickshop.home',
         title: 'QuickShop',
         navigatorStyle: {},
@@ -32,7 +38,7 @@ Navigation.startSingleScreenApp({
                 }
             ]
         }
-    },
+    }*/,
     drawer : {
         left: {
             screen: 'quickshop.optionBar',
