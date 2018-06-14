@@ -94,3 +94,9 @@ export const logIn = ({email, password, navigator}) => {
         }
     }
 }
+
+export const logOut = () => {
+    return {
+        type: "LOG_OUT"
+    }
+}

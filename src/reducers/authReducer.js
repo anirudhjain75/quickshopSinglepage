@@ -51,6 +51,17 @@ export default (state = initialState, action) => {
                 login: false
             }
         }
+        case 'LOG_OUT': {
+            return {
+                ...state,
+                login: false,
+                email: '',
+                password: '',
+                jwt: '',
+                expirationTime: '',
+                refreshToken: ''
+            }
+        }
 
         default:
             return state;
