@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "firebase": "^5.0.3",
+    "pretty-format": "^23.0.1",
     "react": "16.3.1",
     "react-native": "0.55.4",
     "react-native-material-kit": "^0.5.1",

@@ -8,6 +8,7 @@ import SignUpForm from './signupForm';
 import ProductList from './ProductList';
 import Product from "./Product";
 import Main from "./Main";
+import InStore from "./InStore";
 
 export function registerScreens(state, Provider) {
     Navigation.registerComponent('quickshop.main', () => Main, state, Provider);
@@ -18,4 +19,5 @@ export function registerScreens(state, Provider) {
     Navigation.registerComponent('quickshop.signup', () => SignUpForm, state, Provider);
     Navigation.registerComponent('quickshop.productList', () => ProductList, state, Provider);
     Navigation.registerComponent('quickshop.productPage', () => Product, state, Provider);
+    Navigation.registerComponent('quickshop.instore', () => InStore, state, Provider);
 }

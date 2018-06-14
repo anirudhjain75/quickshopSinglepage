@@ -35,6 +35,22 @@ class Main extends React.Component {
                 </TouchableOpacity>
                 <TouchableOpacity
                     style={{flex:2, backgroundColor: '#fff1a6', alignItems: 'center', justifyContent: 'center'}}
+                    onPress={() => {
+                        this.props.navigator.resetTo({
+                            screen: 'quickshop.instore',
+                            title: 'QuickShop',
+                            navigatorStyle: {},
+                            navigatorButtons: {
+                                rightButtons: [
+                                    {
+                                        icon: require('../../img/cart.png'),
+                                        id: 'cart',
+                                        disableIconTint: true
+                                    }
+                                ]
+                            }
+                        })
+                    }}
                     >
                     <Text style={{fontSize: 25}}>Shop in store</Text>
                 </TouchableOpacity>
