@@ -3,6 +3,10 @@ const initialState = {
     lastName: '',
     email: '',
     password: '',
+    jwt: '',
+    expirationTime: '',
+    refreshToken: '',
+    error: '',
     login: false
 };
 
@@ -29,6 +33,25 @@ export default (state = initialState, action) => {
                 ...state,
                 lastName: action.payload
             };
+        case 'LOGIN':
+            return {
+                ...state,
+                email: '',
+                password: '',
+                jwt: action.payload.token,
+                expirationTime: action.payload.expires,
+                refreshToken: action.payload.refresh_token,
+                login: true
+            }
+        case 'LOGIN_ERROR': {
+            return {
+                ...state,
+                error: action.payload,
+                password: '',
+                login: false
+            }
+        }
+
         default:
             return state;
     }

@@ -3,7 +3,7 @@ import {ScrollView, View, TouchableOpacity, Text} from 'react-native';
 import { MKTextField, MKButton } from 'react-native-material-kit';
 import { connect } from 'react-redux';
 
-import {emailChange, passChange} from "../actions";
+import {emailChange, passChange, logIn} from "../actions";
 
 class LoginForm extends React.Component {
     constructor(props) {
@@ -50,14 +50,15 @@ class LoginForm extends React.Component {
                         placeholder={'Password'}
                         password={true}
                         floatingLabelEnabled={true}
-                        style={{marginTop: 20}}
+                        style={{marginTop: 20, marginBottom: 40}}
                         onChangeText={this.onPasswordChange.bind(this)}
                         value={this.props.password}
                     />
+                    <Text style={{color: 'red', alignSelf: 'center', marginBottom: 10}}>{this.props.error.toString()}</Text>
                     <MKButton
-                        style={{marginTop: 50, alignSelf: 'center', backgroundColor: 'black', width: 250, height: 40, justifyContent: 'center'}}
+                        style={{ alignSelf: 'center', backgroundColor: 'black', width: 250, height: 40, justifyContent: 'center'}}
                         onPress={() => {
-
+                            this.props.logIn({email: this.props.email, password: this.props.password, navigator: this.props.navigator})
                         }}
                     >
                         <Text style={{fontSize: 23, color: '#ffffff', alignSelf: 'center', fontWeight: '600'}}>Login</Text>
@@ -69,8 +70,8 @@ class LoginForm extends React.Component {
 }
 
 const mapStateToProps = state => {
-    const {email, password} = state.auth;
-    return {email, password}
+    const {email, password, login, error} = state.auth;
+    return {email, password, login, error}
 };
 
-export default connect(mapStateToProps, {emailChange, passChange})(LoginForm);
+export default connect(mapStateToProps, {emailChange, passChange, logIn})(LoginForm);

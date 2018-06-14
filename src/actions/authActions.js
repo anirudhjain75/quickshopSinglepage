@@ -47,8 +47,50 @@ export const signUp = ({email, password, firstName, lastName}) => {
             })
                 .then((response) => console.log(response.json()))
                 .then(() => dispatch({
-                    type: "LOGIN_SUCCESS"
+                    type: "SIGNUP_SUCCESS",
                 }))
         }
     }
 };
+
+export const logIn = ({email, password, navigator}) => {
+    return(dispatch) => {
+        dispatch({type: "LOGGING_IN"});
+        if(email && password) {
+            fetch("http://localhost:8080/login", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    username: email,
+                    password
+                })
+            })
+                .then((response) => {
+                    console.log(response);
+                    if (response.ok === true)
+                        return response.json();
+                    else
+                        throw new Error("Invalid username or password");
+                })
+                .then((responseData) => {
+                    console.log(responseData);
+                    navigator.dismissAllModals({
+                        animation: 'slide-down'
+                    })
+                    return dispatch({
+                        type: "LOGIN",
+                        payload: responseData
+                    });
+                })
+                .catch((error) => {
+                    console.log(error);
+                    return dispatch({
+                        type: "LOGIN_ERROR",
+                        payload: error
+                    })
+                })
+        }
+    }
+}
