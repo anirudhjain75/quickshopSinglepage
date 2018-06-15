@@ -8,10 +8,10 @@ class Main extends React.Component {
                 <TouchableOpacity
                     style={{flex:2, backgroundColor: '#73ffec', alignItems: 'center', justifyContent: 'center'}}
                     onPress={() => {
-                        this.props.navigator.resetTo({
+                        this.props.navigator.push({
                             screen: 'quickshop.home',
                             title: 'QuickShop',
-                            navigatorStyle: {},
+                            navigatorStyle: {color: '#000000', paddingLeft: 10},
                             navigatorButtons: {
                                 rightButtons: [
                                     {
@@ -19,15 +19,10 @@ class Main extends React.Component {
                                         id: 'cart',
                                         disableIconTint: true
                                     }
-                                ],
-                                leftButtons: [
-                                    {
-                                        icon: require('../../img/list.png'),
-                                        id: 'list',
-                                        disableIconTint: true
-                                    }
                                 ]
-                            }
+                            },
+                            backButtonTitle: 'Back'
+
                         })
                     }}
                     >
@@ -41,10 +36,10 @@ class Main extends React.Component {
                             title: 'QuickShop',
                             navigatorStyle: {},
                             navigatorButtons: {
-                                rightButtons: [
+                                leftButtons: [
                                     {
-                                        icon: require('../../img/cart.png'),
-                                        id: 'cart',
+                                        icon: require('../../img/back.png'),
+                                        id: 'back',
                                         disableIconTint: true
                                     }
                                 ]

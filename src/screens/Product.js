@@ -4,6 +4,24 @@ import {connect} from 'react-redux';
 import {addToCart, removeFromCart} from "../actions";
 
 class Product extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            pinCode: ''
+        };
+        this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+
+    }
+    onNavigatorEvent(event) {
+        if (event.type === 'NavBarButtonPress') {
+            if( event.id === 'cart' ) {
+                this.props.navigator.push({
+                    screen: 'quickshop.cart',
+                    title: 'Your Cart'
+                })
+            }
+        }
+    }
     render() {
         return (
             <ScrollView>

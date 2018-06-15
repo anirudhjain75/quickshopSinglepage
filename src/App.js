@@ -16,34 +16,4 @@ Navigation.startSingleScreenApp({
         screen: 'quickshop.main',
         title: 'QuickShop'
     }
-
-
-    /*{
-        screen: 'quickshop.home',
-        title: 'QuickShop',
-        navigatorStyle: {},
-        navigatorButtons: {
-            rightButtons: [
-                {
-                    icon: require('../img/cart.png'),
-                    id: 'cart',
-                    disableIconTint: true
-                }
-            ],
-            leftButtons: [
-                {
-                    icon: require('../img/list.png'),
-                    id: 'list',
-                    disableIconTint: true
-                }
-            ]
-        }
-    }*/,
-    drawer : {
-        left: {
-            screen: 'quickshop.optionBar',
-            fixedWidth: 300
-        },
-        disableOpenGesture: true
-    }
 });
