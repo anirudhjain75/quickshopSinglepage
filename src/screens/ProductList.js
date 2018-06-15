@@ -6,6 +6,24 @@ import {addToCart, removeFromCart} from "../actions";
 import products from './products.json';
 
 class ProductList extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            pinCode: ''
+        };
+        this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+
+    }
+    onNavigatorEvent(event) {
+        if (event.type === 'NavBarButtonPress') {
+            if( event.id === 'cart' ) {
+                this.props.navigator.push({
+                    screen: 'quickshop.cart',
+                    title: 'Your Cart'
+                })
+            }
+        }
+    }
     renderAddToCart(product) {
         if (this.props.cart.findIndex(x => x.name === product.item.productName) === -1)
         {
@@ -55,7 +73,16 @@ class ProductList extends React.Component {
                                         return (
                                             <TouchableOpacity
                                                 onPress={() => {
-                                                    this.props.navigator.push({screen: 'quickshop.productPage', passProps: {product: product.item}})
+                                                    this.props.navigator.push({screen: 'quickshop.productPage', passProps: {product: product.item, },
+                                                        navigatorButtons: {
+                                                            rightButtons: [
+                                                                {
+                                                                    icon: require('../../img/cart.png'),
+                                                                    id: 'cart',
+                                                                    disableIconTint: true
+                                                                }
+                                                            ]
+                                                        }})
                                                 }}
                                             >
                                                 <Image source={{ uri : product.item.productImage}} style={styles.pastPurchaseItemStyle}/>

@@ -20,13 +20,6 @@ class Home extends React.Component {
                     title: 'Your Cart'
                 })
             }
-            if( event.id === 'list' ) {
-                this.props.navigator.toggleDrawer({
-                    side: 'left',
-                    animated: true,
-                    to: 'open'
-                })
-            }
         }
     }
     render()
@@ -42,23 +35,31 @@ class Home extends React.Component {
                     />
                 </View>
                 <View style={{marginBottom: 15}}>
-                    <Image source={require('../../img/offerBanner.jpg')} style={{height: 100, width: 'auto'}}/>
+                    <Image source={require('../../img/offerBanner.jpg')} style={{height: 170, width: 'auto'}}/>
                 </View>
                 <View>
                     <Text style={{alignSelf: 'center', fontSize: 25}}> Stores </Text>
-                    <View style={{flexDirection: 'row', height: 150, justifyContent: 'space-evenly', marginTop: 20}}>
-                        <TouchableWithoutFeedback onPress={() => this.props.navigator.push({screen: 'quickshop.productList', title: 'Categories'})}>
-                            <Image source={require('../../img/store.png')} style={{height: 100, width: 100}}/>
+                    <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
+                        <TouchableWithoutFeedback onPress={() => this.props.navigator.push({screen: 'quickshop.productList', title: 'Categories', navigatorButtons: {
+                                rightButtons: [
+                                    {
+                                        icon: require('../../img/cart.png'),
+                                        id: 'cart',
+                                        disableIconTint: true
+                                    }
+                                ]
+                            }})}>
+                            <Image source={require('../../img/store.png')} style={{height: 80, width: 80}}/>
                         </TouchableWithoutFeedback>
-                        <Image source={require('../../img/store.png')} style={{height: 100, width: 100}}/>
+                        <Image source={require('../../img/store.png')} style={{height: 80, width: 80}}/>
                     </View>
-                    <View style={{flexDirection: 'row', height: 150, justifyContent: 'space-evenly'}}>
-                        <Image source={require('../../img/store.png')} style={{height: 100, width: 100}}/>
-                        <Image source={require('../../img/store.png')} style={{height: 100, width: 100}}/>
+                    <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
+                        <Image source={require('../../img/store.png')} style={{height: 80, width: 80}}/>
+                        <Image source={require('../../img/store.png')} style={{height: 80, width: 80}}/>
                     </View>
                 </View>
                 <View style={{marginTop: 10, marginBottom: 10}}>
-                    <Text style={{alignSelf: 'center', fontSize: 20, marginBottom: 20}}> Previously ordered Items </Text>
+                    <Text style={{alignSelf: 'center', fontSize: 20, marginBottom: 20}}> Popular Products </Text>
                     <FlatList
                         horizontal
                         data={pastPurchase}
