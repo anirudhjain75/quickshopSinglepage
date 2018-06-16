@@ -3,7 +3,7 @@ import {ScrollView, View, TouchableOpacity, Text} from 'react-native';
 import { MKTextField, MKButton } from 'react-native-material-kit';
 import { connect } from 'react-redux';
 
-import {emailChange, passChange, FirstNameChange, LastNameChange, signUp} from "../actions";
+import {mobileNumberChange, nameChange, signUp} from "../actions";
 
 class SignUpForm extends React.Component {
     constructor(props) {
@@ -29,65 +29,30 @@ class SignUpForm extends React.Component {
             }
         }
     }
-    onEmailChange(text) {
-        this.props.emailChange(text);
+    onMobNoChange(text) {
+        this.props.mobileNumberChange(text);
     }
-    onPasswordChange(text) {
-        this.props.passChange(text);
-    }
-    onFirstNameChange(text) {
-        this.props.FirstNameChange(text);
-    }
-    onLastNameChange(text) {
-        this.props.LastNameChange(text);
+    onNameChange(text) {
+        this.props.nameChange(text);
     }
     render() {
         return (
             <ScrollView style={{flexDirection: 'column'}}>
                 <View style={{marginLeft: 40, marginTop: 15,  height: 150, width: 300}}>
-                    <View style={{ justifyContent: 'space-between', flexDirection: 'row'}}>
-                        <MKTextField
-                            placeholder={'First Name'}
-                            autoCorrect={false}
-                            floatingLabelEnabled={true}
-                            style={{marginTop: 20, width: 140}}
-                            onChangeText={this.onFirstNameChange.bind(this)}
-                            value={this.props.firstName}
-                        />
-                        <MKTextField
-                            placeholder={'Last Name'}
-                            autoCorrect={false}
-                            floatingLabelEnabled={true}
-                            style={{marginTop: 20, width: 140}}
-                            onChangeText={this.onLastNameChange.bind(this)}
-                            value={this.props.lastName}
-                        />
-                    </View>
                     <MKTextField
-                        placeholder={'Email'}
+                        placeholder={'Phone No'}
                         autoCorrect={false}
                         floatingLabelEnabled={true}
                         style={{marginTop: 20}}
-                        onChangeText={this.onEmailChange.bind(this)}
-                        value={this.props.email}
-                    />
-                    <MKTextField
-                        placeholder={'Password'}
-                        autoCorrect={false}
-                        password={true}
-                        floatingLabelEnabled={true}
-                        style={{marginTop: 20}}
-                        onChangeText={this.onPasswordChange.bind(this)}
-                        value={this.props.password}
+                        onChangeText={this.onMobNoChange.bind(this)}
+                        value={this.props.mobNo}
                     />
                     <MKButton
                         style={{marginTop: 50, alignSelf: 'center', backgroundColor: 'black', width: 250, height: 40, justifyContent: 'center'}}
                         onPress={() => {
                             this.props.signUp({
-                                email: this.props.email,
-                                password: this.props.password,
-                                firstName: this.props.firstName,
-                                lastName: this.props.lastName
+                                name: this.props.name,
+                                mobileNumber: this.props.mobNo
                             })
                         }}
                     >
@@ -100,8 +65,8 @@ class SignUpForm extends React.Component {
 }
 
 const mapStateToProps = state => {
-    const {email, password, firstName, lastName} = state.auth;
-    return {email, password, firstName, lastName}
+    const {mobNo, name} = state.auth;
+    return {mobNo, name}
 };
 
-export default connect(mapStateToProps, {emailChange, passChange, FirstNameChange, LastNameChange, signUp})(SignUpForm);
+export default connect(mapStateToProps, {nameChange, signUp, mobileNumberChange})(SignUpForm);
