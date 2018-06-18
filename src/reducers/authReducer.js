@@ -28,7 +28,28 @@ export default (state = initialState, action) => {
         }
         case "SIGNING_UP": {
             return {
-                ...state
+                ...state,
+                name: action.payload.name,
+                email: action.payload.email,
+                mobNo: action.payload.mobNo,
+                jwt: action.payload.jwt,
+                expirationTime: action.payload.expirationTime,
+                refreshToken: action.payload.refreshToken,
+                loggedIn: true,
+                error: ''
+            }
+        }
+        case "LOGIN": {
+            return {
+                ...state,
+                name: action.payload.name,
+                email: action.payload.email,
+                mobNo: action.payload.mobNo,
+                jwt: action.payload.jwt,
+                expirationTime: action.payload.expirationTime,
+                refreshToken: action.payload.refreshToken,
+                loggedIn: true,
+                error: ''
             }
         }
         case "CURRENT_OTP_CHANGE": {

@@ -7,6 +7,9 @@
     "test": "jest"
   },
   "dependencies": {
+    "animated": "^0.2.2",
+    "animation": "^0.1.3",
+    "animations": "^0.0.0",
     "firebase": "^5.0.3",
     "pretty-format": "^23.0.1",
     "react": "16.3.1",

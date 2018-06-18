@@ -1,9 +1,10 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, Animated, Easing} from 'react-native';
 import {connect} from 'react-redux';
 import {MKTextField, MKButton} from 'react-native-material-kit';
 
-import {optGen} from "../actions";
+import {optGen, signUp, login} from "../actions";
+
 
 class startPoint extends React.Component {
     constructor(props) {
@@ -18,7 +19,7 @@ class startPoint extends React.Component {
             otp: '',
             signup: true,
             editable: false
-        }
+        };
     }
 
     renderSignupComponents() {
@@ -103,14 +104,20 @@ class startPoint extends React.Component {
                         justifyContent: 'center'
                     }}
                     onPress={() => {
-                        if (this.state.mobileNumber.length === 10) {
-                            this.props.optGen(this.props.mobNo)
+                        if(this.props.exist)
+                        {
+                            this.props.login({
+                                mobileNumber: this.state.mobileNumber,
+                                otp: this.state.otp
+                            }, this.props.navigator)
                         }
                         else {
-                            this.setState({
-                                highlightColor: '#ff282d',
-                                placeholder: 'Please enter valid number'
-                            })
+                            this.props.signUp({
+                                mobileNumber: this.state.mobileNumber,
+                                otp: this.state.otp,
+                                name: this.state.name,
+                                email: this.state.email
+                            }, this.props.navigator)
                         }
                     }}
                 >
@@ -173,10 +180,10 @@ class startPoint extends React.Component {
 
     render() {
         return <View style={{flex: 1}}>
-            <View style={{flex: 3, backgroundColor: '#f8ff8b'}}>
+            <View style={{flex: 3}}>
                 {this.renderSignupComponents()}
             </View>
-            <View style={{flex: 3, backgroundColor: '#ffceff' }}>
+            <View style={{flex: 3}}>
                 <MKTextField
                     placeholder={this.state.placeholder}
                     autoCorrect={false}
@@ -191,7 +198,7 @@ class startPoint extends React.Component {
                 {this.renderOtpEntry()}
                 {this.renderCheckoutButtonNoOtp()}
             </View>
-            <View style={{flex: 3, backgroundColor: '#a8ff9d',alignItems: 'center', justifyContent: 'flex-end'}}>
+            <View style={{flex: 3,alignItems: 'center', justifyContent: 'flex-end'}}>
                 {this.renderCheckoutButtonWhenOtp()}
                 <Text style={{marginBottom: 20, color: '#2060ff'}}> Terms and Conditions </Text>
             </View>
@@ -216,8 +223,9 @@ const mapStateToProps = state => {
     return {
         name: state.auth.name,
         mobNo: state.auth.mobNo,
-        otp: state.auth.currentOTP
+        otp: state.auth.currentOTP,
+        exist: state.auth.login
   }
 };
 
-export default connect(mapStateToProps, {optGen})(startPoint);
+export default connect(mapStateToProps, {optGen, signUp, login})(startPoint);
