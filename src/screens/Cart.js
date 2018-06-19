@@ -1,41 +1,66 @@
 import React from 'react';
 import { View, Text, SectionList, TouchableOpacity} from 'react-native';
+import {connect} from 'react-redux';
 
 import storeData from './stores.json';
 
 class Cart extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+
     render() {
-        return(
-            <View>
-                <SectionList
-                    sections={storeData}
-                    renderSectionHeader={({section}) => {
-                        return(
-                            <View style={{marginTop: 15, paddingBottom: 15, flexDirection:'row',height:40, alignItems: 'center', justifyContent: 'space-evenly', borderBottomWidth: 1, borderColor: '#c3c3c3'}}>
-                                <Text style={{fontSize: 16, color: 'green'}}> {section.storeName} </Text>
-                                <Text style={{fontSize: 16, color: 'green'}}> {`Rs ` + section.storePriceTotal}</Text>
-                            </View>
-                        )
-                    }}
-                    renderItem={({item}) => {
-                        return (
-                            <View style={{flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center', borderBottomWidth:1, borderColor: '#d7d7d7'}}>
-                                <Text style={{width: 100, marginTop:10, marginBottom:10}}>{item.productQuantity + ` * ` +  item.productName}</Text>
-                                <Text>{item.productQuantity * item.productPrice}</Text>
-                            </View>
-                        )
-                    }}
-                    keyExtractor={(item, index) => index}
-                />
-                <TouchableOpacity style={{alignSelf: 'center', backgroundColor: '#ffac3a', height: 40, width: 200, marginTop: 50, alignItems: 'center', justifyContent: 'center', borderRadius: 4}}>
-                    <Text style={{fontSize: 25, color: '#ffffff', fontWeight: '700'}}> Checkout </Text>
-                </TouchableOpacity>
-            </View>
-        )
+        const cart = this.props.cart;
+        const storeData = [];
+        cart.map((item)=> {
+            if(storeData.indexOf(item.store) === -1)
+            {
+                storeData.push(item.store);
+            }
+        });
+        console.log(this.props.cart);
+        return <View>
+            {storeData.map((item) => {
+                return (
+                    <View>
+                        <View style={{
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            height: 40,
+                            borderColor: '#98ff7f',
+                            borderWidth: 2
+                        }}>
+                            <Text>{item}</Text>
+                        </View>
+                        {cart.map((product) => {
+                            if (product.store === item) {
+                                return (
+                                    <View>
+                                        <Text> {product.name}</Text>
+                                    </View>
+                                )
+                            }
+                        })}
+                        <TouchableOpacity style={{
+                            alignSelf: 'center',
+                            backgroundColor: '#ffac3a',
+                            height: 40,
+                            width: 200,
+                            marginTop: 50,
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            borderRadius: 4
+                        }}>
+                            <Text style={{fontSize: 25, color: '#ffffff', fontWeight: '700'}}> Checkout </Text>
+                        </TouchableOpacity>
+                    </View>
+                )
+            })}
+        </View>
     }
 }
 
-export default Cart;
+const mapStateToProps = state => {
+    return {
+        cart: state.cart.cart
+    }
+};
+
+export default connect(mapStateToProps)(Cart);

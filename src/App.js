@@ -13,7 +13,7 @@ registerScreens( state, Provider);
 
 Navigation.startSingleScreenApp({
     screen: {
-        screen: 'quickshop.entry',
+        screen: 'quickshop.main',
         title: 'QuickShop'
     }
 });

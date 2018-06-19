@@ -31,19 +31,11 @@ class Main extends React.Component {
                 <TouchableOpacity
                     style={{flex:2, backgroundColor: '#fff1a6', alignItems: 'center', justifyContent: 'center'}}
                     onPress={() => {
-                        this.props.navigator.resetTo({
+                        this.props.navigator.push({
                             screen: 'quickshop.instore',
                             title: 'QuickShop',
                             navigatorStyle: {},
-                            navigatorButtons: {
-                                leftButtons: [
-                                    {
-                                        icon: require('../../img/back.png'),
-                                        id: 'back',
-                                        disableIconTint: true
-                                    }
-                                ]
-                            }
+                            navigatorButtons: {}
                         })
                     }}
                     >

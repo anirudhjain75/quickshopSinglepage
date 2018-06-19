@@ -25,34 +25,20 @@ class ProductList extends React.Component {
         }
     }
     renderAddToCart(product) {
-        if (this.props.cart.findIndex(x => x.name === product.item.productName) === -1)
-        {
-            return (
-                <TouchableOpacity
-                    style={{ backgroundColor: '#ffa24a', marginTop: 10, height: 30, width: 130, justifyContent: 'center', borderRadius: 5, alignSelf: 'center'}}
-                    onPress = {() => {
-                        this.props.addToCart({
-                            name: product.item.productName,
-                            price: product.item.productPrice,
-                            image: product.item.productImage
-                        });
-                    }}
-                >
-                    <Text style={{color: "#ffffff", alignSelf: 'center', fontWeight: '700', fontSize: 18}}>Add To Cart</Text>
-                </TouchableOpacity>
-            )
-        }
         return (
             <TouchableOpacity
+                style={{ backgroundColor: '#ffa24a', marginTop: 10, height: 30, width: 130, justifyContent: 'center', borderRadius: 5, alignSelf: 'center'}}
                 onPress = {() => {
                     this.props.addToCart({
                         name: product.item.productName,
                         price: product.item.productPrice,
-                        image: product.item.productImage
+                        image: product.item.productImage,
+                        store: product.item.storeName,
+                        quantity: 1
                     });
                 }}
             >
-                <Image source={require('../../img/addIcon.png')} style={{width: 20, height: 20}}/>
+                <Text style={{color: "#ffffff", alignSelf: 'center', fontWeight: '700', fontSize: 18}}>Add To Cart</Text>
             </TouchableOpacity>
         )
     };
