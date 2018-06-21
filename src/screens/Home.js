@@ -26,14 +26,6 @@ class Home extends React.Component {
     {
         return (
             <ScrollView style={{flex: 1}}>
-                <View style={styles.pinCodeContainer}>
-                    <TextInput
-                        style={styles.textInputStyle}
-                        onChangeText={(text) => this.setState({ pinCode: text})}
-                        value={this.state.pinCode}
-                        placeholder='Enter your pincode'
-                    />
-                </View>
                 <View style={{marginBottom: 15}}>
                     <Image source={require('../../img/offerBanner.jpg')} style={{height: 170, width: 'auto'}}/>
                 </View>
@@ -49,13 +41,21 @@ class Home extends React.Component {
                                     }
                                 ]
                             }})}>
-                            <Image source={require('../../img/store.png')} style={{height: 80, width: 80}}/>
+                            <Image source={require('../../img/BigBazaarLogo.jpg')} style={{height: 80, width: 80, borderRadius: 50}}/>
                         </TouchableWithoutFeedback>
-                        <Image source={require('../../img/store.png')} style={{height: 80, width: 80}}/>
+                        <Image source={require('../../img/relianceFreshLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
                     </View>
                     <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
-                        <Image source={require('../../img/store.png')} style={{height: 80, width: 80}}/>
-                        <Image source={require('../../img/store.png')} style={{height: 80, width: 80}}/>
+                        <Image source={require('../../img/sparLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        <Image source={require('../../img/hypercityLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                    </View>
+                    <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
+                        <Image source={require('../../img/toyWizLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        <Image source={require('../../img/muradLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                    </View>
+                    <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
+                        <Image source={require('../../img/epicSportsLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        <Image source={require('../../img/costcoLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
                     </View>
                 </View>
                 <View style={{marginTop: 10, marginBottom: 10}}>

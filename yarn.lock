@@ -4530,6 +4530,10 @@ react-native-navigation@^1.1.462:
   dependencies:
     lodash "4.x.x"
 
+react-native-smart-barcode@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-smart-barcode/-/react-native-smart-barcode-1.0.6.tgz#7411586c687ed25b6adf456f949b39699c63db5e"
+
 react-native-vector-icons@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-4.6.0.tgz#e4014311ffa6de397d914ffc31b7097a874cc8d5"
