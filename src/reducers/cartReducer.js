@@ -1,30 +1,44 @@
 const initialState = {
-    cart: []
+    cart: [{
+        name: "Chocolate 100g",
+        price: 100,
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chocolate_%28blue_background%29.jpg/400px-Chocolate_%28blue_background%29.jpg",
+        store: "Big Bazaar",
+        quantity: 1
+    }]
 };
 
 export default (state = initialState, action) => {
     switch (action.type) {
         case 'ADD_TO_CART' :
         {
+            let uuid = 'undefined';
             state.cart.map((item) => {
-                if(action.payload.name === item.name)
+                if (item.name == action.payload.name)
                 {
-                    item.quantity = item.quantity + action.payload.quantity;
+                    uuid = item.uuid;
+                    item.quantity = item.quantity + 1
                 }
             });
-            return {
-                ...state,
-                cart: [ ...state.cart, action.payload]
-            };
+            if (uuid == 'undefined')
+            {
+                return {
+                    ...state,
+                    cart: [ ...state.cart, {...action.payload, quantity: 1}]
+                };
+            }
+            const tmp = state;
+            return tmp;
         }
         case 'REMOVE_FROM_CART' : {
-            let temp = state.cart;
-            const index = temp.indexOf(action.payload);
-            temp.splice(index, 1);
-            return {
-                ...state,
-                cart: temp
-            };
+            const uuid = action.payload;
+            state.cart.map((item) => {
+                if (item.uuid == uuid && item.quantity >= 0)
+                {
+                    item.quantity = item.quantity - 1;
+                }
+            });
+            return {...state};
         }
         default:
             return state;

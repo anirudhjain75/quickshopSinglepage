@@ -8,6 +8,7 @@ import Main from "./Main";
 import InStore from "./InStore";
 import startPoint from "./startPoint";
 import inStoreCamera from "./inStoreCamera";
+import paymentPage from "./paymentPage";
 
 export function registerScreens(state, Provider) {
     Navigation.registerComponent('quickshop.main', () => Main, state, Provider);
@@ -18,4 +19,5 @@ export function registerScreens(state, Provider) {
     Navigation.registerComponent('quickshop.instore', () => InStore, state, Provider);
     Navigation.registerComponent('quickshop.entry', () => startPoint, state, Provider);
     Navigation.registerComponent('quickshop.scanner', () => inStoreCamera, state, Provider);
+    Navigation.registerComponent('quickshop.payment', () => paymentPage, state, Provider);
 }

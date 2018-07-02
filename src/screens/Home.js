@@ -1,5 +1,8 @@
 import React from 'react';
-import { View, Text, TextInput, Image, ScrollView, FlatList, TouchableWithoutFeedback} from 'react-native';
+import { View, Text, TextInput, Image, ScrollView, FlatList, TouchableWithoutFeedback, TouchableOpacity} from 'react-native';
+import {connect} from 'react-redux';
+
+import {addToCart} from "../actions";
 
 import pastPurchase from './pastPurchaseData.json';
 
@@ -41,21 +44,21 @@ class Home extends React.Component {
                                     }
                                 ]
                             }})}>
-                            <Image source={require('../../img/BigBazaarLogo.jpg')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                            <Image source={require('../../img/BigBazaarLogo.jpg')} style={{height: 80, width: 80}}/>
                         </TouchableWithoutFeedback>
-                        <Image source={require('../../img/relianceFreshLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        <Image source={require('../../img/relianceFreshLogo.png')} style={{height: 80, width: 80}}/>
                     </View>
                     <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
                         <Image source={require('../../img/sparLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
                         <Image source={require('../../img/hypercityLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
                     </View>
                     <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
-                        <Image source={require('../../img/toyWizLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
-                        <Image source={require('../../img/muradLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        <Image source={require('../../img/toyWizLogo.png')} style={{height: 80, width: 80}}/>
+                        <Image source={require('../../img/muradLogo.png')} style={{height: 80, width: 80}}/>
                     </View>
                     <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
-                        <Image source={require('../../img/epicSportsLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
-                        <Image source={require('../../img/costcoLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        <Image source={require('../../img/epicSportsLogo.png')} style={{height: 80, width: 80}}/>
+                        <Image source={require('../../img/costcoLogo.png')} style={{height: 80, width: 80}}/>
                     </View>
                 </View>
                 <View style={{marginTop: 10, marginBottom: 10}}>
@@ -71,9 +74,17 @@ class Home extends React.Component {
                                     <Text style={{alignSelf: 'center', marginTop: 20, marginBottom: 10}}> {item.productName } </Text>
                                     <View style={{flexDirection: 'row', justifyContent: 'space-evenly', alignItems:'center'}}>
                                         <Text >{item.productPrice}</Text>
-                                        <TouchableWithoutFeedback>
+                                        <TouchableOpacity onPress={() => {
+                                            this.props.addToCart({
+                                                name: item.productName,
+                                                price: item.productPrice,
+                                                image: item.productImage,
+                                                store: 'Quick Order',
+                                                quantity: 1
+                                            });
+                                        }}>
                                             <Image source={require('../../img/addIcon.png')} style={{width: 20, height: 20}}/>
-                                        </TouchableWithoutFeedback>
+                                        </TouchableOpacity>
                                     </View>
                                 </View>
                             )
@@ -108,4 +119,8 @@ const styles = {
     }
 };
 
-export default Home;
+const mapStateToProps = state => {
+    return {}
+}
+
+export default connect(mapStateToProps, {addToCart})(Home);

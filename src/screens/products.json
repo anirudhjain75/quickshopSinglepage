@@ -13,7 +13,7 @@
       },
       {
         "key" : "1",
-        "productName" : "Banana - Robusta 1KG",
+        "productName" : "Banana 1KG",
         "productPrice" : 82,
         "productImage" : "https://www.bigbasket.com/media/uploads/p/s/10000025_22-fresho-banana-robusta.jpg",
         "productDescription" : "Relish the soft, buttery texture of Robusta bananas that are light green and have a great fragrance and taste. The stalks of Robustas are thick and rigid. Fresh fruits are green, which revolve to a bright yellow on ripening and the flesh contains a white - ceramic colour. Fresho Robusta are fine quality, sweet flavored, mushy and soft bananas. ",
@@ -21,7 +21,7 @@
       },
       {
         "key" : "2",
-        "productName" : "Mango - Safeda 1KG",
+        "productName" : "Mango Safeda 1KG",
         "productPrice" : 69,
         "productImage" : "https://www.bigbasket.com/media/uploads/p/s/70000493_1-fresho-mango-safeda.jpg",
         "productDescription" : "Safeda mangoes are predominantly sweet and slighty sour. They are also called Banganapalli in the South. Skin has a bright yellow hue and these mangoes are large in size and contain less fiber. We source the best banganapalli mangoes directly from the farmers of Banganapalle, Kurnool district, Andhra Pradesh. It is an early season variety.",
@@ -37,7 +37,7 @@
       },
       {
         "key" : "4",
-        "productName" : "Pear - Green, Imported 4PCS",
+        "productName" : "Pear green 4PCS",
         "productPrice" : 102,
         "productImage" : "https://www.bigbasket.com/media/uploads/p/s/40048445_2-fresho-pear-green-imported.jpg",
         "productDescription" : "Pears are grown throughout the world, but none matches the ideal growing conditions and climate of the Pacific Northwest states of USA â€“ Washington & Oregon. USA Pears are recognized worldwide for their unsurpassed quality. They are good any time of the day â€“ from mid-morning to pre bed time, easy to digest with only 100 calories.Â  It contains no cholesterol, no sodium, free from saturated fat, an excellent source of fiber and a good source of vitamin C. USA Pears are a good source of potassium, which can help in lowering blood pressure and reduce risk of cancer. They have a large amount of natural fructose and glucose, making them a quick source of healthy energy. USA Pears are ready to eat when they yield to the gentle thumb test. ",
@@ -59,40 +59,46 @@
     "products" : [
       {
         "key" : "0",
-        "productName" : "Travel Sweets - Forest Fruit 200g Tin",
+        "productName" : "Travel Sweets 200g",
         "productPrice" : 225,
-        "productImage" : "https://www.bigbasket.com/media/uploads/p/s/20002240_1-simpkins-travel-sweets-forest-fruit.jpg"
-        "productDescription" : "Simpkins Forest Fruit Drops - Travel Sweets contains a variety of delicious sweets with flavors including raspberry, blackberry and blackcurrant."
+        "productImage" : "https://www.bigbasket.com/media/uploads/p/s/20002240_1-simpkins-travel-sweets-forest-fruit.jpg",
+        "productDescription" : "Simpkins Forest Fruit Drops - Travel Sweets contains a variety of delicious sweets with flavors including raspberry, blackberry and blackcurrant.",
+        "storeName": "Reliance Fresh"
       },
       {
         "key" : "1",
-        "productName" : "Sweets - Gulab Jamun (Del) 1KG Pouch",
+        "productName" : "Gulab Jamun 1KG",
         "productPrice" : 210,
-        "productImage" : "https://www.bigbasket.com/media/uploads/p/s/70000839_1-haldirams-sweets-gulab-jamun-del.jpg"
+        "productImage" : "https://www.bigbasket.com/media/uploads/p/s/70000839_1-haldirams-sweets-gulab-jamun-del.jpg",
+        "storeName": "Reliance Fresh"
       },
       {
         "key" : "2",
-        "productName" : "Sweets Love Candy - Lychee Flavored 150g Pouch",
+        "productName" : "Love Candy 150g",
         "productPrice" : 30,
-        "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/40002792_1-hart-beat-sweets-love-candy-lychee-flavored.jpg"
+        "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/40002792_1-hart-beat-sweets-love-candy-lychee-flavored.jpg",
+        "storeName": "Reliance Fresh"
       },
       {
         "key" : "3",
-        "productName" : "Falero Pulpy Fruit Chews - Django Mango 160g Pouch",
+        "productName" : "Fruit Chews 160g",
         "productPrice" : 49,
-        "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/299376_2-mapro-falero-pulpy-fruit-chews-django-mango.jpg"
+        "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/299376_2-mapro-falero-pulpy-fruit-chews-django-mango.jpg",
+        "storeName": "Reliance Fresh"
       },
       {
         "key" : "4",
-        "productName" : "Chocolate - Dessert Delight, Truffle 50g",
+        "productName" : "Chocolate Truffle 50g",
         "productPrice" : 50,
-        "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/40114578_6-nestle-kitkat-chocolate-dessert-delight-truffle.jpg"
+        "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/40114578_6-nestle-kitkat-chocolate-dessert-delight-truffle.jpg",
+        "storeName": "Reliance Fresh"
       },
       {
         "key" : "5",
-        "productName" : "Custard Powder - Chocolate 100g",
+        "productName" : "Custard Powder 100g",
         "productPrice" : 45,
-        "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/70000158_1-tops-custard-powder-chocolate.jpg"
+        "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/70000158_1-tops-custard-powder-chocolate.jpg",
+        "storeName": "Reliance Fresh"
       }
     ]
   },
@@ -108,31 +114,31 @@
       },
       {
         "key" : "1",
-        "productName" : "Mountain dew Soft Drink 600ml",
+        "productName" : "Mountain dew 600ml",
         "productPrice" : 35,
         "productImage" : "https://www.bigbasket.com/media/uploads/p/s/265874_11-mountain-dew-soft-drink.jpg"
       },
       {
         "key" : "2",
-        "productName" : "Coke Soft Drink 300ml",
+        "productName" : "Coke Soft 300ml",
         "productPrice" : 35,
         "productImage" : "https://www.bigbasket.com/media/uploads/p/s/100401160_3-coca-cola-soft-drink.jpg"
       },
       {
         "key" : "3",
-        "productName" : "MTR Drink mix Badam 500g",
+        "productName" : "MTR Badam mix 500g",
         "productPrice" : 230,
         "productImage" : "https://www.bigbasket.com/media/uploads/p/s/305560_2-mtr-drink-mix-badam.jpg"
       },
       {
         "key" : "4",
-        "productName" : "Red Bull Energy Drink 250ml",
+        "productName" : "Red Bull 250ml",
         "productPrice" : 99,
         "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/100012278_5-red-bull-energy-drink.jpg"
       },
       {
         "key" : "5",
-        "productName" : "Coconut Water - Non Carbonated Drink Smooth 310ml",
+        "productName" : "Coconut Water 310ml",
         "productPrice" : 85,
         "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/40004116_1-grace-coconut-water-non-carbonated-drink-smooth.jpg"
       }

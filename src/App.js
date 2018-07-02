@@ -11,9 +11,11 @@ const state = createStore(reducers, applyMiddleware(thunk));
 
 registerScreens( state, Provider);
 
+console.disableYellowBox = true;
+
 Navigation.startSingleScreenApp({
     screen: {
-        screen: 'quickshop.main',
+        screen: 'quickshop.entry',
         title: 'QuickShop'
     }
 });

@@ -1,38 +1,38 @@
 [
   {
     "key" : "0",
-    "productName" : "Apple",
-    "productPrice" : "Rs 100",
-    "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+    "productName" : "Soft Drink - Diet 250ml",
+    "productPrice" : 25,
+    "productImage" : "https://www.bigbasket.com/media/uploads/p/s/263333_8-pepsi-soft-drink-diet.jpg"
   },
   {
     "key" : "1",
-    "productName" : "Apple 1KG",
-    "productPrice" : "Rs 100",
-    "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+    "productName" : "Mountain dew 600ml",
+    "productPrice" : 35,
+    "productImage" : "https://www.bigbasket.com/media/uploads/p/s/265874_11-mountain-dew-soft-drink.jpg"
   },
   {
     "key" : "2",
-    "productName" : "Apple 1KG",
-    "productPrice" : "Rs 100",
-    "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+    "productName" : "Coke Soft 300ml",
+    "productPrice" : 35,
+    "productImage" : "https://www.bigbasket.com/media/uploads/p/s/100401160_3-coca-cola-soft-drink.jpg"
   },
   {
     "key" : "3",
-    "productName" : "Apple 1KG",
-    "productPrice" : "Rs 100",
-    "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+    "productName" : "MTR Badam mix 500g",
+    "productPrice" : 230,
+    "productImage" : "https://www.bigbasket.com/media/uploads/p/s/305560_2-mtr-drink-mix-badam.jpg"
   },
   {
     "key" : "4",
-    "productName" : "Apple 1KG",
-    "productPrice" : "Rs 100",
-    "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+    "productName" : "Red Bull 250ml",
+    "productPrice" : 99,
+    "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/100012278_5-red-bull-energy-drink.jpg"
   },
   {
     "key" : "5",
-    "productName" : "Apple 1KG",
-    "productPrice" : "Rs 100",
-    "productImage" : "https://i.ndtvimg.com/i/2017-10/apple-benefits_620x350_51507721694.jpg"
+    "productName" : "Coconut Water 310ml",
+    "productPrice" : 85,
+    "productImage" : "https://www.bigbasket.com/media/uploads/p/mm/40004116_1-grace-coconut-water-non-carbonated-drink-smooth.jpg"
   }
-  ]
+]

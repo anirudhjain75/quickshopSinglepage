@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, FlatList, Text, Image, TouchableWithoutFeedback, TouchableOpacity} from 'react-native';
+import {View, FlatList, Text, Image, TouchableOpacity} from 'react-native';
 import { connect } from 'react-redux';
 
 import {addToCart, removeFromCart} from "../actions";
@@ -33,8 +33,7 @@ class ProductList extends React.Component {
                         name: product.item.productName,
                         price: product.item.productPrice,
                         image: product.item.productImage,
-                        store: product.item.storeName,
-                        quantity: 1
+                        store: product.item.storeName
                     });
                 }}
             >

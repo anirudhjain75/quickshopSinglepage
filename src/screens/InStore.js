@@ -36,19 +36,61 @@ class Home extends React.Component {
                         }}>
                             <Image source={require('../../img/BigBazaarLogo.jpg')} style={{height: 80, width: 80}}/>
                         </TouchableWithoutFeedback>
+                        <TouchableWithoutFeedback onPress={() => {
+                            this.props.navigator.push({
+                                screen: 'quickshop.scanner'
+                            })
+                        }}>
                         <Image source={require('../../img/relianceFreshLogo.png')} style={{height: 80, width: 80}}/>
+                        </TouchableWithoutFeedback>
                     </View>
                     <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
+                        <TouchableWithoutFeedback onPress={() => {
+                            this.props.navigator.push({
+                                screen: 'quickshop.scanner'
+                            })
+                        }}>
                         <Image source={require('../../img/sparLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        </TouchableWithoutFeedback>
+                        <TouchableWithoutFeedback onPress={() => {
+                            this.props.navigator.push({
+                                screen: 'quickshop.scanner'
+                            })
+                        }}>
                         <Image source={require('../../img/hypercityLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        </TouchableWithoutFeedback>
                     </View>
                     <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
-                        <Image source={require('../../img/toyWizLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
-                        <Image source={require('../../img/muradLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        <TouchableWithoutFeedback onPress={() => {
+                            this.props.navigator.push({
+                                screen: 'quickshop.scanner'
+                            })
+                        }}>
+                        <Image source={require('../../img/toyWizLogo.png')} style={{height: 80, width: 80}}/>
+                        </TouchableWithoutFeedback>
+                        <TouchableWithoutFeedback onPress={() => {
+                            this.props.navigator.push({
+                                screen: 'quickshop.scanner'
+                            })
+                        }}>
+                        <Image source={require('../../img/muradLogo.png')} style={{height: 80, width: 80}}/>
+                        </TouchableWithoutFeedback>
                     </View>
                     <View style={{flexDirection: 'row', height: 100, justifyContent: 'space-evenly', marginTop: 20}}>
-                        <Image source={require('../../img/epicSportsLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
-                        <Image source={require('../../img/costcoLogo.png')} style={{height: 80, width: 80, borderRadius: 50}}/>
+                        <TouchableWithoutFeedback onPress={() => {
+                            this.props.navigator.push({
+                                screen: 'quickshop.scanner'
+                            })
+                        }}>
+                        <Image source={require('../../img/epicSportsLogo.png')} style={{height: 80, width: 80}}/>
+                        </TouchableWithoutFeedback>
+                        <TouchableWithoutFeedback onPress={() => {
+                            this.props.navigator.push({
+                                screen: 'quickshop.scanner'
+                            })
+                        }}>
+                        <Image source={require('../../img/costcoLogo.png')} style={{height: 80, width: 80}}/>
+                        </TouchableWithoutFeedback>
                     </View>
                 </View>
                 <View style={{marginTop: 10, marginBottom: 10}}>
